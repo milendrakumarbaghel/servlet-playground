@@ -13,12 +13,11 @@
     <title>Success Page</title>
 </head>
 <body>
-<h2>Registration Successful</h2>
-
-Name: ${name} <br>
-Email: ${email} <br>
-Age: ${age} <br>
-Course: ${course} <br>
-Batch: ${batch} <br>
+    <h2>Student Course Registration Successful</h2>
+    Name: ${name} <br>
+    Email: ${email} <br>
+    Age: ${age} <br>
+    Course: ${course} <br>
+    Batch: ${batch} <br>
 </body>
 </html>

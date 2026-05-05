@@ -11,7 +11,7 @@
     <title>Registration Page</title>
 </head>
 <body>
-    <form action="register" method="post">
+    <form action="${pageContext.request.contextPath}/student-course-register" method="post">
 
         Name: <input type="text" name="name"><br><br>
         Email: <input type="email" name="email"><br><br>

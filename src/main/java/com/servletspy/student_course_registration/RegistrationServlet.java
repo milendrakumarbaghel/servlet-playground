@@ -8,10 +8,10 @@ import jakarta.servlet.http.HttpServletResponse;
 
 import java.io.IOException;
 
-@WebServlet("/register")
+@WebServlet("/student-course-register")
 public class RegistrationServlet extends HttpServlet {
     @Override
-    public void init() throws ServletException {
+    public void init() {
         System.out.println("Servlet Initialized");
     }
 
@@ -47,10 +47,10 @@ public class RegistrationServlet extends HttpServlet {
             req.setAttribute("course", course);
             req.setAttribute("batch", batch);
 
-            req.getRequestDispatcher("/success.jsp").forward(req, resp);
+            req.getRequestDispatcher("/student_registration_response.jsp").forward(req, resp);
 
         } else {
-            resp.sendRedirect(req.getContextPath() + "/register.jsp");
+            resp.sendRedirect(req.getContextPath() + "/student_course_registration.jsp");
         }
     }
 
