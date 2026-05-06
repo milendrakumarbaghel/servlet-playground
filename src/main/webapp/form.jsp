@@ -32,7 +32,6 @@
     <br><br>
 
     Batch:
-
     <select name="batch" required>
         <option value="">--Select Batch--</option>
         <option value="Morning">Morning</option>

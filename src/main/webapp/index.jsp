@@ -12,5 +12,7 @@
     <a href="employee_leave_application.jsp">Go to Employee Leave Application Form</a>
     <br>
     <a href="exam_result_form.jsp">Go to Online Exam Result Preview</a>
+    <br>
+    <a href="cookie">Go to Cookie Demo</a>
 </body>
 </html>
